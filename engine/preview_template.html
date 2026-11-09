@@ -1,0 +1,136 @@
+<title>Soul Chords Opening Grid</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Figtree:wght@400;500&display=swap">
+<style>
+/* layout: one quiet column — the grid as Instagram will show it, then each post as a swipeable strip with its caption */
+:root{--bg:#fff;--fg:#111;--muted:#6b6b70;--line:#e6e6e8;--panel:#f6f6f7;--accent:#5B6591;
+--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;--body:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111113;--fg:#f2f2f3;--muted:#a0a0a8;--line:#2a2a2e;--panel:#1b1b1e;--accent:#9aa3d6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111113;--fg:#f2f2f3;--muted:#a0a0a8;--line:#2a2a2e;--panel:#1b1b1e;--accent:#9aa3d6;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:48px 80px;display:flex;flex-direction:column;gap:56px}
+.top h1{font-family:var(--display);font-weight:300;font-size:clamp(40px,7vw,64px);line-height:1.02;margin:0;text-wrap:balance}
+.top h1 i{font-weight:300}
+.eyebrow{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.lead{max-width:62ch;color:var(--muted);margin:18px 0 0}
+.gridbox{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+@media(min-width:760px){.gridbox{grid-template-columns:minmax(0,440px) minmax(0,1fr);align-items:start;gap:40px}}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--line);border:3px solid var(--line)}
+.cell img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}
+.cell:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.notes h3{font-family:var(--display);font-weight:400;font-size:26px;margin:0 0 10px}
+.notes ol{margin:0;padding-left:1.2em;color:var(--muted)}
+.notes li{margin:4px 0}
+.notes p{color:var(--muted);margin:14px 0 0;max-width:52ch}
+.post{display:flex;flex-direction:column;gap:18px;padding-top:32px;border-top:1px solid var(--line);scroll-margin-top:16px}
+.post header{display:flex;gap:18px;align-items:baseline}
+.no{font-family:var(--display);font-size:44px;line-height:1;color:var(--accent);min-width:1.2em}
+.post h2{font-family:var(--display);font-weight:400;font-size:30px;line-height:1.15;margin:0}
+.meta{margin:4px 0 0;font-size:13px;letter-spacing:.04em;color:var(--muted)}
+.strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.strip figure{margin:0;flex:0 0 min(260px,72vw);scroll-snap-align:start}
+.strip img{display:block;width:100%;aspect-ratio:4/5;border:1px solid var(--line)}
+figcaption{font-size:12px;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+.cap{background:var(--panel);border-radius:10px;padding:16px 18px;min-width:0}
+.caphead{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.caphead span{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.copy{font:inherit;font-size:13px;background:none;border:1px solid var(--fg);color:var(--fg);border-radius:999px;padding:4px 14px;cursor:pointer}
+.copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+pre{margin:0;white-space:pre-wrap;font-family:var(--body);font-size:15px;line-height:1.6}
+</style>
+<div class="wrap">
+<div class="top"><p class="eyebrow">@yoursoulchords · for Leena's approval</p>
+<h1>The opening grid, <i>nine posts</i></h1>
+<p class="lead">This is how the profile will look on day one, followed by every slide and caption. Nothing is scheduled yet. Once these are approved, they go out together, then the four-a-week rhythm begins.</p></div>
+<div class="gridbox"><div class="grid" aria-label="The profile grid, newest first"><a class="cell" href="#post-1"><img src="img/p1_every_soul_01.jpg" alt="Every soul has a sound" loading="lazy"></a><a class="cell" href="#post-2"><img src="img/p2_the_twelve_01.jpg" alt="Twelve notes, one octave" loading="lazy"></a><a class="cell" href="#post-3"><img src="img/p3_boethius_01.jpg" alt="Ancient Voices: Boethius" loading="lazy"></a><a class="cell" href="#post-4"><img src="img/p4_wildling_01.jpg" alt="The Notes: the Wildling" loading="lazy"></a><a class="cell" href="#post-5"><img src="img/p5_pythagoras_01.jpg" alt="Mathematics: Pythagoras and the hammers" loading="lazy"></a><a class="cell" href="#post-6"><img src="img/p6_visionary_01.jpg" alt="The Notes: the Visionary" loading="lazy"></a><a class="cell" href="#post-7"><img src="img/p7_baristas_01.jpg" alt="The Twelve as baristas" loading="lazy"></a><a class="cell" href="#post-8"><img src="img/p8_chord_01.jpg" alt="Chord Shapes: what is a chord?" loading="lazy"></a><a class="cell" href="#post-9"><img src="img/p9_universe_01.jpg" alt="The universe began with sound" loading="lazy"></a></div>
+<div class="notes"><h3>How to review</h3><ol><li>Tap a square to jump to that post.</li><li>Swipe each strip to see every slide.</li><li>Approve, or say what to change: a word, a slide, or a whole post.</li></ol>
+<p>Instagram shows the newest post first, so the bottom-right square is published first and the top-left last. Each post lists its order. Facebook gets the same posts; Pinterest gets its own tall versions.</p></div></div>
+<section class="post" id="post-1">
+<header><span class="no">1</span><div><h2>Every soul has a sound</h2><p class="meta">Single · 1 slide · posts 9th</p></div></header>
+<div class="strip"><figure><img src="img/p1_every_soul_01.jpg" alt="Every soul has a sound, slide 1 of 1" loading="lazy"><figcaption>1 / 1</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="0">Copy</button></div><pre id="cap0">Every soul has a sound.
+
+Before every label, before every name, there was vibration. The Soul Chords listen for the three notes that sound most clearly through you, and how they move together as one chord.
+
+Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-2">
+<header><span class="no">2</span><div><h2>Twelve notes, one octave</h2><p class="meta">Single · 1 slide · posts 8th</p></div></header>
+<div class="strip"><figure><img src="img/p2_the_twelve_01.jpg" alt="Twelve notes, one octave, slide 1 of 1" loading="lazy"><figcaption>1 / 1</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="1">Copy</button></div><pre id="cap1">If love were a single sound, these twelve would be its octave.
+
+Twelve notes, from C to B, each a pure thread of the same love. Every soul carries all twelve. Three sound most clearly through you, and together they are your chord.
+
+Which three are yours? Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-3">
+<header><span class="no">3</span><div><h2>Ancient Voices: Boethius</h2><p class="meta">Ancient Voices · 4 slides · posts 7th</p></div></header>
+<div class="strip"><figure><img src="img/p3_boethius_01.jpg" alt="Ancient Voices: Boethius, slide 1 of 4" loading="lazy"><figcaption>1 / 4</figcaption></figure><figure><img src="img/p3_boethius_02.jpg" alt="Ancient Voices: Boethius, slide 2 of 4" loading="lazy"><figcaption>2 / 4</figcaption></figure><figure><img src="img/p3_boethius_03.jpg" alt="Ancient Voices: Boethius, slide 3 of 4" loading="lazy"><figcaption>3 / 4</figcaption></figure><figure><img src="img/p3_boethius_04.jpg" alt="Ancient Voices: Boethius, slide 4 of 4" loading="lazy"><figcaption>4 / 4</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="2">Copy</button></div><pre id="cap2">“Human music is understood by anyone who descends into themselves.” — Boethius, c. 520
+
+Boethius named three kinds of music: the music of the heavens, the music we play, and musica humana, the music inside a person. The Soul Chords are a way of listening to yours.
+
+Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-4">
+<header><span class="no">4</span><div><h2>The Notes: the Wildling</h2><p class="meta">The Notes · 4 slides · posts 6th</p></div></header>
+<div class="strip"><figure><img src="img/p4_wildling_01.jpg" alt="The Notes: the Wildling, slide 1 of 4" loading="lazy"><figcaption>1 / 4</figcaption></figure><figure><img src="img/p4_wildling_02.jpg" alt="The Notes: the Wildling, slide 2 of 4" loading="lazy"><figcaption>2 / 4</figcaption></figure><figure><img src="img/p4_wildling_03.jpg" alt="The Notes: the Wildling, slide 3 of 4" loading="lazy"><figcaption>3 / 4</figcaption></figure><figure><img src="img/p4_wildling_04.jpg" alt="The Notes: the Wildling, slide 4 of 4" loading="lazy"><figcaption>4 / 4</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="3">Copy</button></div><pre id="cap3">The Wildling · C · 264 Hz
+
+Kinship with the Earth and all living things. Wildlings feel the land and its creatures as kin, not scenery, and their gift is tending: living in rhythm with the seasons.
+
+Is the Wildling one of your three? Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-5">
+<header><span class="no">5</span><div><h2>Mathematics: Pythagoras and the hammers</h2><p class="meta">Mathematics of Harmony · 6 slides · posts 5th</p></div></header>
+<div class="strip"><figure><img src="img/p5_pythagoras_01.jpg" alt="Mathematics: Pythagoras and the hammers, slide 1 of 6" loading="lazy"><figcaption>1 / 6</figcaption></figure><figure><img src="img/p5_pythagoras_02.jpg" alt="Mathematics: Pythagoras and the hammers, slide 2 of 6" loading="lazy"><figcaption>2 / 6</figcaption></figure><figure><img src="img/p5_pythagoras_03.jpg" alt="Mathematics: Pythagoras and the hammers, slide 3 of 6" loading="lazy"><figcaption>3 / 6</figcaption></figure><figure><img src="img/p5_pythagoras_04.jpg" alt="Mathematics: Pythagoras and the hammers, slide 4 of 6" loading="lazy"><figcaption>4 / 6</figcaption></figure><figure><img src="img/p5_pythagoras_05.jpg" alt="Mathematics: Pythagoras and the hammers, slide 5 of 6" loading="lazy"><figcaption>5 / 6</figcaption></figure><figure><img src="img/p5_pythagoras_06.jpg" alt="Mathematics: Pythagoras and the hammers, slide 6 of 6" loading="lazy"><figcaption>6 / 6</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="4">Copy</button></div><pre id="cap4">Pythagoras and the hammers.
+
+The story goes that Pythagoras heard a forge ringing and found that harmony follows number: 2:1 is the octave, 3:2 the fifth, 4:3 the fourth. Simple ratios rest; complex ones rub. Both make music move.
+
+Every soul has a sound. Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-6">
+<header><span class="no">6</span><div><h2>The Notes: the Visionary</h2><p class="meta">The Notes · 4 slides · posts 4th</p></div></header>
+<div class="strip"><figure><img src="img/p6_visionary_01.jpg" alt="The Notes: the Visionary, slide 1 of 4" loading="lazy"><figcaption>1 / 4</figcaption></figure><figure><img src="img/p6_visionary_02.jpg" alt="The Notes: the Visionary, slide 2 of 4" loading="lazy"><figcaption>2 / 4</figcaption></figure><figure><img src="img/p6_visionary_03.jpg" alt="The Notes: the Visionary, slide 3 of 4" loading="lazy"><figcaption>3 / 4</figcaption></figure><figure><img src="img/p6_visionary_04.jpg" alt="The Notes: the Visionary, slide 4 of 4" loading="lazy"><figcaption>4 / 4</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="5">Copy</button></div><pre id="cap5">The Visionary · G · 395.56 Hz
+
+Seeing what’s possible. Visionaries see whole horizons at once: what a person, a project or a world could become. Their growing edge is knowing when and where to land.
+
+Is the Visionary one of your three? Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-7">
+<header><span class="no">7</span><div><h2>The Twelve as baristas</h2><p class="meta">The Twelve as… · 13 slides · posts 3rd</p></div></header>
+<div class="strip"><figure><img src="img/p7_baristas_01.jpg" alt="The Twelve as baristas, slide 1 of 13" loading="lazy"><figcaption>1 / 13</figcaption></figure><figure><img src="img/p7_baristas_02.jpg" alt="The Twelve as baristas, slide 2 of 13" loading="lazy"><figcaption>2 / 13</figcaption></figure><figure><img src="img/p7_baristas_03.jpg" alt="The Twelve as baristas, slide 3 of 13" loading="lazy"><figcaption>3 / 13</figcaption></figure><figure><img src="img/p7_baristas_04.jpg" alt="The Twelve as baristas, slide 4 of 13" loading="lazy"><figcaption>4 / 13</figcaption></figure><figure><img src="img/p7_baristas_05.jpg" alt="The Twelve as baristas, slide 5 of 13" loading="lazy"><figcaption>5 / 13</figcaption></figure><figure><img src="img/p7_baristas_06.jpg" alt="The Twelve as baristas, slide 6 of 13" loading="lazy"><figcaption>6 / 13</figcaption></figure><figure><img src="img/p7_baristas_07.jpg" alt="The Twelve as baristas, slide 7 of 13" loading="lazy"><figcaption>7 / 13</figcaption></figure><figure><img src="img/p7_baristas_08.jpg" alt="The Twelve as baristas, slide 8 of 13" loading="lazy"><figcaption>8 / 13</figcaption></figure><figure><img src="img/p7_baristas_09.jpg" alt="The Twelve as baristas, slide 9 of 13" loading="lazy"><figcaption>9 / 13</figcaption></figure><figure><img src="img/p7_baristas_10.jpg" alt="The Twelve as baristas, slide 10 of 13" loading="lazy"><figcaption>10 / 13</figcaption></figure><figure><img src="img/p7_baristas_11.jpg" alt="The Twelve as baristas, slide 11 of 13" loading="lazy"><figcaption>11 / 13</figcaption></figure><figure><img src="img/p7_baristas_12.jpg" alt="The Twelve as baristas, slide 12 of 13" loading="lazy"><figcaption>12 / 13</figcaption></figure><figure><img src="img/p7_baristas_13.jpg" alt="The Twelve as baristas, slide 13 of 13" loading="lazy"><figcaption>13 / 13</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="6">Copy</button></div><pre id="cap6">The twelve as baristas. Same café, same order, twelve ways love moves.
+
+Which one is serving you? Which one are you? Tell us in the comments.
+
+Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-8">
+<header><span class="no">8</span><div><h2>Chord Shapes: what is a chord?</h2><p class="meta">Chord Shapes · 5 slides · posts 2nd</p></div></header>
+<div class="strip"><figure><img src="img/p8_chord_01.jpg" alt="Chord Shapes: what is a chord?, slide 1 of 5" loading="lazy"><figcaption>1 / 5</figcaption></figure><figure><img src="img/p8_chord_02.jpg" alt="Chord Shapes: what is a chord?, slide 2 of 5" loading="lazy"><figcaption>2 / 5</figcaption></figure><figure><img src="img/p8_chord_03.jpg" alt="Chord Shapes: what is a chord?, slide 3 of 5" loading="lazy"><figcaption>3 / 5</figcaption></figure><figure><img src="img/p8_chord_04.jpg" alt="Chord Shapes: what is a chord?, slide 4 of 5" loading="lazy"><figcaption>4 / 5</figcaption></figure><figure><img src="img/p8_chord_05.jpg" alt="Chord Shapes: what is a chord?, slide 5 of 5" loading="lazy"><figcaption>5 / 5</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="7">Copy</button></div><pre id="cap7">Twelve notes. Any three make a chord.
+
+Place the twelve around a circle and your three make a triangle. There are 220 possible chords and only thirteen shapes, and the shape is the harmony: open and bright, or close and rubbing, each with its own music.
+
+What shape is yours? Find your chord · link in bio</pre></div>
+</section><section class="post" id="post-9">
+<header><span class="no">9</span><div><h2>The universe began with sound</h2><p class="meta">Single · 1 slide · posts 1st</p></div></header>
+<div class="strip"><figure><img src="img/p9_universe_01.jpg" alt="The universe began with sound, slide 1 of 1" loading="lazy"><figcaption>1 / 1</figcaption></figure></div>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="8">Copy</button></div><pre id="cap8">The universe began with sound. Listen to yours.
+
+Every tradition that has listened closely has said it: before there was matter, there was vibration. The Soul Chords are a way of hearing the music that is yours.
+
+Find your chord · link in bio</pre></div>
+</section>
+<section class="post" id="attunement">
+<header><span class="no">M</span><div><h2>Morning Attunement, an example</h2><p class="meta">Reel · 25 seconds · Mondays · sound on</p></div></header>
+<video src="morning_attunement_C_wildling.mp4" controls playsinline preload="metadata" style="width:min(320px,100%);aspect-ratio:9/16;background:#0d0d0e;border-radius:10px"></video>
+<div class="cap"><div class="caphead"><span>Caption</span><button type="button" class="copy" data-i="m">Copy</button></div><pre id="capm">The Pythagoreans began each day with a gentle melody, so the soul would leave sleep and meet the day well-tuned.
+
+This week's note is the Wildling, C at 264 Hz. Breathe with it for one minute before the day begins.
+
+Find your chord · link in bio</pre></div>
+</section>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById('cap'+b.dataset.i);var s=t.textContent;
+function sel(){var r=document.createRange();r.selectNodeContents(t);var x=getSelection();x.removeAllRanges();x.addRange(r);}
+try{navigator.clipboard.writeText(s).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1500)},sel)}catch(e){sel()}})});
+</script>

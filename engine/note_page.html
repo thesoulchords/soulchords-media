@@ -1,0 +1,98 @@
+<div class="sc-note" data-loading="1">
+  <div class="sc-n-hero">
+    <div class="sc-n-txt">
+      <p class="sc-n-eye"></p>
+      <h1 class="sc-n-h"></h1>
+      <p class="sc-n-th"></p>
+      <button type="button" class="sc-n-play" aria-label="Hear this note"><span class="dot"></span><span class="lbl">Hear this note</span></button>
+    </div>
+    <div class="sc-n-rg"><svg viewBox="-85 -20 470 340" aria-hidden="true"><circle cx="150" cy="150" r="96" fill="none" stroke="#111" stroke-width="1.5"/><g class="pts"></g></svg></div>
+  </div>
+  <div class="sc-n-body">
+    <p class="sc-n-sum"></p>
+    <p class="sc-n-gift"></p>
+    <p class="sc-n-more">Every soul carries all twelve notes. Three sound most clearly through each of us, and together they form a chord: one of 220.</p>
+  </div>
+  <div class="sc-cta"><div class="h">Is this one of your three?</div><div class="s">Listen to yours.</div><a href="/begin" class="sl lg light">Find your chord</a><div class="n">Free · about thirty minutes · your reading stays with you</div></div>
+  <div class="sc-n-others"><p class="sc-n-oh">The other eleven</p><div class="sc-n-grid"></div></div>
+</div>
+<style>
+.sc-note{width:100%;max-width:960px;margin:0 auto;font-family:Figtree,sans-serif;color:#111;display:flex;flex-direction:column;gap:56px}
+.sc-n-hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px 40px}
+.sc-n-txt{flex:1 1 320px;display:flex;flex-direction:column;gap:16px}
+.sc-n-eye{margin:0;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#6A6A6A}
+.sc-n-h{margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:64px;line-height:1}
+.sc-n-th{margin:0;font-family:'EB Garamond',serif;font-style:italic;font-size:28px;line-height:1.2}
+.sc-n-play{align-self:flex-start;margin-top:8px;display:inline-flex;align-items:center;gap:10px;background:none;border:1px solid #111;border-radius:999px;padding:10px 20px;font:inherit;font-size:14px;color:#111;cursor:pointer}
+.sc-n-play .dot{width:10px;height:10px;border-radius:50%;background:#111}
+.sc-n-play:focus-visible{outline:2px solid #111;outline-offset:3px}
+.sc-n-rg{flex:0 1 420px;min-width:280px}
+.sc-n-rg svg{width:100%;height:auto;display:block;overflow:visible}
+.sc-n-rg .pt{transform-origin:center;transform-box:fill-box;transition:transform .9s ease}
+.sc-n-rg .lb{font-family:'Cormorant Garamond',serif;font-size:13px;fill:#9A9A9A}
+.sc-n-rg .lb.on{fill:#111;font-size:15px}
+.sc-n-body{max-width:640px;width:100%;margin:0 auto;display:flex;flex-direction:column;gap:18px;font-size:17px;line-height:1.65}
+.sc-n-body p{margin:0}
+.sc-n-sum{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.35}
+.sc-n-more{color:#555}
+.sc-cta{width:100%;max-width:760px;margin:0 auto;box-sizing:border-box;background:#111;color:#fff;border-radius:20px;padding:56px 32px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.sc-cta .h{font-family:'Cormorant Garamond',serif;font-size:40px;line-height:1.1}
+.sc-cta .s{font-family:'EB Garamond',serif;font-style:italic;font-size:30px;line-height:1.1;margin-bottom:18px}
+.sc-cta .n{font-size:13px;color:rgba(255,255,255,.6);margin-top:14px}
+.sc-n-others{max-width:760px;width:100%;margin:0 auto}
+.sc-n-oh{margin:0 0 16px;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#6A6A6A;text-align:center}
+.sc-n-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:4px 24px}
+.sc-n-grid a{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid #E6E6E6;color:#111;text-decoration:none;font-family:'Cormorant Garamond',serif;font-size:20px}
+.sc-n-grid a span.d{width:8px;height:8px;border-radius:50%;flex:none}
+.sc-n-grid a small{margin-left:auto;font-family:Figtree,sans-serif;font-size:11px;color:#8A8A8A}
+.sc-n-grid a:hover{text-decoration:underline}
+.sc-note[data-loading] {visibility:hidden}
+@media (max-width:640px){.sc-n-h{font-size:48px}.sc-n-th{font-size:23px}.sc-cta{padding:44px 22px}.sc-cta .h{font-size:30px}.sc-cta .s{font-size:25px}.sc-n-sum{font-size:23px}}
+@media (prefers-reduced-motion:reduce){.sc-n-rg .pt{transition:none}}
+</style>
+<script>
+(function(){
+var root=document.querySelector('.sc-note[data-loading]');if(!root)return;
+var N=[
+['wildling','Wildling','C','#74854A','Kinship with the Earth and all living things','The Wildling carries a deep kinship with the Earth and all living things, and is a steward and keeper of her.','Wildlings feel the land and its creatures as kin, not scenery. They notice what is growing, what is missing and what is grieving. Their gift is tending: living in rhythm with the seasons and reminding everyone near them that we belong to something larger.'],
+['keystone','Keystone','C♯','#B06F57','Home and belonging','The Keystone holds the people in their life together, the way a keystone holds the arch of a doorway home.','Keystones are the steady centre others lean on: the one called in a crisis, the glue of a family or a circle. Their presence feels like home. Their growing edge is letting themselves be held too, the way a keystone stays in place only because the stones beside it press back.'],
+['beacon','Beacon','D','#D4935A','Radiance and joy','The Beacon shines their innate light outward, and their self-expression lifts everyone around them.','Beacons light a room without trying. Their warmth, expression and celebration lift everyone near them, at a kitchen table or on a stage. Their growing edge is letting themselves be seen on dim days too, and finding the people who shine for them.'],
+['manifestor','Manifestor','D♯','#C4A15A','Connection, the weaving of threads','The Manifestor weaves the threads of connection that let good things happen, mostly for others.','Manifestors know who should meet whom and what belongs where. Through them the right people, resources and moments find each other, and it feels like synchronicity. Their growing edge is weaving for themselves as well, and resting when the web is done for now.'],
+['wayshower','Wayshower','E','#A9483A','The courage to go first','The Wayshower goes first. Going first is the whole gift; they don’t need anyone to follow.','Wayshowers walk ahead where there is no path yet, carried by an inner knowing they can’t switch off. They see where things are broken and start the new way. Their growing edge is setting the torch down to rest, and letting cycles of going and pausing carry them.'],
+['noble','Noble','F','#6E9C87','Peace for all beings','The Noble is a pure golden heart devoted to peace and goodness for all beings.','Nobles carry an inner compass of fairness and a heart that reaches far beyond themselves. They notice who is left out of the room and feel the world’s suffering keenly. Their growing edge is keeping the heart wide while finding peace within it: making peace, not only keeping it.'],
+['mirror','Mirror','F♯','#6F93AE','Love reflected','The Mirror shows people who they are, and at their highest reflects love back in every situation.','In a Mirror’s company, people see themselves more clearly than they can alone. Mirrors listen, gather and reflect what is true, and are often the friend everyone thinks out loud with. Their growing edge is keeping their own sense of self intact, and asking who reflects them.'],
+['visionary','Visionary','G','#5B6591','Seeing what’s possible','The Visionary sees and holds what is possible; seeing and holding the vision is the whole gift.','Visionaries see whole horizons at once: what a person, a project or a world could become. Holding that vision is the gift itself. Their growing edge is discernment, choosing which visions to carry forward and knowing when and where to land.'],
+['alchemist','Alchemist','G♯','#7E6A9A','Transformation, power held with integrity','The Alchemist is a vessel for pure life-force energy. They sense it and shift it, mostly with people, and consciously transform, transmute and transcend it.','Others feel something change around an Alchemist: a room settles, a person steadies. Their gift is sensing energy and moving it with care and consent. Their growing edge is turning that gift inward too, tending their own energy as closely as everyone else’s.'],
+['architect','Architect','A','#6E7780','The order that lets energy flow','The Architect’s craft is making systems, structures and the flow of energy work.','Architects build the structures, systems and spaces that let everything else work. They find the elegant solution and bring calm order where there was chaos. Their growing edge is knowing what isn’t theirs to fix, and remembering that less is often more.'],
+['activator','Activator','A♯','#A35C7A','Permission to be who you are','The Activator ignites by being fully themselves, which gives others permission to be themselves.','People come back to Activators months or years later to say something they said changed them, often something they don’t remember saying. The spark happens in the other person. Their growing edge is trusting that simply being themselves is enough.'],
+['portal','Portal','B','#5E9EA3','Passage between worlds','The Portal is the passage between worlds, and how the new enters the world.','Portals are open channels: ideas, knowing and new things come through them into the world, shaped by the rest of their chord. They perceive what others miss. Their growing edge is grounding and choosing, guarding the doorway so they know what comes through and what is theirs.']
+];
+var P=location.pathname,parts=P.split('/').filter(Boolean),ni=parts.indexOf('note'),seg=((ni>-1&&parts[ni+1])||'').toLowerCase(),idx=-1,base=P.slice(0,Math.max(P.indexOf('/note'),0));
+for(var i=0;i<N.length;i++){if(N[i][0]===seg){idx=i;break;}}
+if(idx<0){location.replace(base+'/archetypes');return;}
+var n=N[idx],hz=444*Math.pow(2,(idx-9)/12),hzs=(Math.round(hz*100)/100).toString();
+function q(s){return root.querySelector(s);}
+q('.sc-n-eye').textContent='One of the twelve · '+n[2]+' · '+hzs+' Hz';
+q('.sc-n-h').textContent='The '+n[1];
+q('.sc-n-th').textContent=n[4];q('.sc-n-th').style.color=n[3];
+q('.sc-n-play .dot').style.background=n[3];
+q('.sc-n-play .lbl').textContent='Hear the '+n[1]+' · '+n[2];
+q('.sc-n-sum').textContent=n[5];
+q('.sc-n-gift').textContent=n[6];
+document.title='The '+n[1]+' · '+n[2]+' · '+hzs+' Hz · The Soul Chords';
+var md=document.querySelector('meta[name="description"]');if(md)md.setAttribute('content',n[5]);
+var grid=q('.sc-n-grid');
+N.forEach(function(o,k){if(k===idx)return;var a=document.createElement('a');a.href=base+'/note/'+o[0];a.innerHTML='<span class="d"></span><span></span><small></small>';a.children[0].style.background=o[3];a.children[1].textContent=o[1];a.children[2].textContent=o[2];grid.appendChild(a);});
+var NS='http://www.w3.org/2000/svg',g=q('.pts'),ctx=null,out=null,cur=null,lab=null;
+function AC(){try{if(!ctx){ctx=new(window.AudioContext||window.webkitAudioContext)();var lp=ctx.createBiquadFilter();lp.type='lowpass';lp.frequency.value=2200;var len=ctx.sampleRate*3,ib=ctx.createBuffer(2,len,ctx.sampleRate);for(var c=0;c<2;c++){var d=ib.getChannelData(c);for(var i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.exp(-i/(ctx.sampleRate*1.1));}var cv=ctx.createConvolver();cv.buffer=ib;var w=ctx.createGain();w.gain.value=.5;var dr=ctx.createGain();dr.gain.value=.55;lp.connect(dr);lp.connect(cv);cv.connect(w);dr.connect(ctx.destination);w.connect(ctx.destination);out=lp;}if(ctx.state==='suspended')ctx.resume();return ctx;}catch(e){return null;}}
+function bell(p){if(!AC())return;var F=444*Math.pow(2,(p-9)/12),t=ctx.currentTime+.02,gn=ctx.createGain();gn.gain.setValueAtTime(0,t);gn.gain.linearRampToValueAtTime(.12,t+.04);gn.gain.exponentialRampToValueAtTime(.0005,t+5);gn.connect(out);
+[[F,'sine',1],[F*1.003,'sine',.5],[F*.9955,'sine',.35],[F*2,'sine',.26],[F*3,'sine',.1],[F*.5,'triangle',.16]].forEach(function(s){var o=ctx.createOscillator(),og=ctx.createGain();o.type=s[1];o.frequency.value=s[0];og.gain.value=s[2];o.connect(og);og.connect(gn);o.start(t);o.stop(t+5.2);});}
+N.forEach(function(o,k){var a=(k*30-90)*Math.PI/180,x=150+126*Math.cos(a),y=150+126*Math.sin(a),on=k===idx;
+ var c=document.createElementNS(NS,'circle');c.setAttribute('cx',x);c.setAttribute('cy',y);c.setAttribute('r',on?13:6);c.setAttribute('fill',on?o[3]:'#D9D9D9');c.setAttribute('class','pt');g.appendChild(c);
+ if(on){var h=document.createElementNS(NS,'circle');h.setAttribute('cx',x);h.setAttribute('cy',y);h.setAttribute('r',26);h.setAttribute('fill',o[3]);h.setAttribute('opacity','.14');g.insertBefore(h,c);cur=c;}
+ var t=document.createElementNS(NS,'text'),lx=150+156*Math.cos(a),ly=150+156*Math.sin(a);t.setAttribute('x',lx);t.setAttribute('y',ly+4);t.setAttribute('text-anchor',Math.abs(Math.cos(a))<.3?'middle':(Math.cos(a)>0?'start':'end'));t.setAttribute('class','lb'+(on?' on':''));t.textContent=o[1];g.appendChild(t);});
+q('.sc-n-play').addEventListener('click',function(){bell(idx);if(cur){cur.style.transform='scale(1.4)';setTimeout(function(){cur.style.transform='';},1400);}});
+var cta=q('.sc-cta a');if(cta)cta.href=base+'/begin';
+root.removeAttribute('data-loading');
+})();
+</script>
