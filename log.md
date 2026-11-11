@@ -23,4 +23,4 @@ Newest at the bottom. One line per post: date · channel · series · title · m
 - The Notes: Wildling and Visionary done. Next: Keystone, Beacon, Mirror, Wayshower (weeks 1–4).
 - Ancient Voices: Boethius done. Next: Ptolemy (dawn melody).
 - The Twelve as…: baristas done.
-- Chord Shapes: intro done. Features: none yet; Cluster first (week 3).
+- Chord Geometry (renamed from Chord Shapes on Nov 10; use "geometry" from now on): intro done. Features: none yet; Cluster first (week 3).
