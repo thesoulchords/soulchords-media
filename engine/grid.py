@@ -191,22 +191,22 @@ Which one is serving you? Which one are you? Tell us in the comments.
 
 Find your chord · link in bio"""))
 
-# 8  What is a chord? (shapes)
+# 8  What is a chord? (geometry)
 mini = lambda tri, nm: f'<div style="display:flex;flex-direction:column;align-items:center;gap:6px">{ring(250, lit=tri, tri=tri, sw=1.2)}<div class="it" style="font-size:40px">{nm}</div></div>'
-posts.append(("p8_chord", "Chord Shapes: what is a chord?", [
- page(f"""<div class="fr"><div class="eye">Chord shapes</div>
+posts.append(("p8_chord", "Chord Geometry: what is a chord?", [
+ page(f"""<div class="fr"><div class="eye">Chord geometry</div>
 <div class="h1" style="font-size:112px;margin-top:40px">Twelve notes.<br><span class="it" style="font-size:94px">Any three make a chord.</span></div></div>"""),
  page(f"""<div class="fr"><div>{ring(560, lit=['wildling','wayshower','visionary'], tri=['wildling','wayshower','visionary'])}</div>
 <div class="body" style="margin-top:40px;font-size:52px">Place the twelve notes around a circle. Your three make a triangle.</div></div>""", n="2 / 5"),
- page(f"""<div class="fr"><div class="h1" style="font-size:84px">220 chords.<br><span class="it" style="font-size:72px">Only thirteen shapes.</span></div>
+ page(f"""<div class="fr"><div class="h1" style="font-size:84px">220 chords.<br><span class="it" style="font-size:72px">Only thirteen geometries.</span></div>
 <div style="display:flex;gap:20px;margin-top:60px">{mini(['wildling','wayshower','visionary'],'Major')}{mini(['wildling','keystone','beacon'],'Cluster')}{mini(['manifestor','visionary','portal'],'Augmented')}</div></div>""", n="3 / 5"),
- page("""<div class="fr"><div class="body">The shape is the harmony. Some ring open and bright; some sit close and rub. Your chord shows where your gifts rest with ease, and where they grow one another through friction.</div></div>""", n="4 / 5"),
+ page("""<div class="fr"><div class="body">The geometry is the harmony. Some ring open and bright; some sit close and rub. Your chord shows where your gifts rest with ease, and where they grow one another through friction.</div></div>""", n="4 / 5"),
  CTA()],
 """Twelve notes. Any three make a chord.
 
-Place the twelve around a circle and your three make a triangle. There are 220 possible chords and only thirteen shapes, and the shape is the harmony: open and bright, or close and rubbing, each with its own music.
+Place the twelve around a circle and your three make a triangle. There are 220 possible chords and only thirteen geometries, and the geometry is the harmony: open and bright, or close and rubbing, each with its own music.
 
-What shape is yours? Find your chord · link in bio"""))
+What geometry is yours? Find your chord · link in bio"""))
 
 # 9  The universe began with sound (white single)
 posts.append(("p9_universe", "The universe began with sound", [page(f"""<div class="fr" style="padding-bottom:170px">
